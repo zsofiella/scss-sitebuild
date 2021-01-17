@@ -4,7 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
+Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
+Bekezdések: Muli, Helvetica, Arial, sans-serif
+A Footer egységesen: Muli, Helvetica, Arial, sans-serif */
 .nav {
   font-family: "Catamaran", Helvetica, Arial, sans-serif;
   background-color: transparent;
@@ -12,9 +15,13 @@ body {
   justify-content: center;
   height: 4.5rem;
 }
-
 .nav__item{
     list-style-type: none;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.foter{
+   font-family: "Muli", Helvetica, Arial, sans-serif  
 }
 
 button {
